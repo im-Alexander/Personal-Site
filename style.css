@@ -1,0 +1,29 @@
+.nav {
+    position: fixed;
+}
+
+.row {
+    height: 100vh;
+}
+
+.d-flex {
+    width: 150px;
+    height: auto;
+}
+
+.container {
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.profilepic {
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 10px 5px 5px red;;
+}
+
+.subheading {
+    color: grey;
+}
