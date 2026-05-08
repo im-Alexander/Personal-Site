@@ -1,5 +1,6 @@
 .nav {
     position: fixed;
+    z-index: 2;
 }
 
 .row {
@@ -26,4 +27,17 @@
 
 .subheading {
     color: grey;
+}
+
+.banner {
+    position: fixed;
+    padding-top: 1rem;
+    z-index: 1;
+}
+
+.banner-text {
+    color: rgb(2, 200, 2);
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Play", sans-serif;
 }
