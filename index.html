@@ -17,19 +17,12 @@
 </head>
 
 <body>
-    <!-- Banner -->
-    <div class="container">
-        <div class="col-12 text-bg-dark text-center banner">
-            <p class="banner-text">Professor Alex</p>
-        </div>
-    </div>
     <div class="container">
         <!-- Navbar -->
         <div class="row">
-            <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark col-3">
+            <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark col-1">
                 <ul class="nav nav-pills flex-column mb-auto">
-                    <li class="nav-item"> <a href="./index.html" class="nav-link outline-primary"
-                            aria-current="page">Home</a>
+                    <li class="nav-item"> <a href="./" class="nav-link outline-primary" aria-current="page">Home</a>
                     </li>
                     <li class="nav-item"> <a href="./resume.html" class="nav-link text-white">Resume</a></li>
                     <li class="nav-item"> <a href="./contact-me.html" class="nav-link text-white">Contact Me</a></li>
@@ -42,14 +35,20 @@
                             </button>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="./tindog.html">TinDog</a></li>
+                                <li><a class="dropdown-item" href="./mondrian.html">Mondrian Painting</a></li>
+                                <li><a class="dropdown-item" href="./pricing-table.html">Pricing Table</a></li>
+                                <li><a class="dropdown-item" href="./meme-poster.html">Meme Poster</a></li>
                             </ul>
                         </div>
                     </li>
                 </ul>
             </div>
             <!-- Body -->
-            <div class="px-4 py-5 my-5 text-center col">
-                <img class="d-block mx-auto mb-4 profilepic" src="./assets/images/WIN_20240613_11_45_27_Pro.jpg"
+            <div class="text-center col body">
+                <div class="text-bg-dark banner text-center">
+                    <p class="banner-text">Professor Alex</p>
+                </div>
+                <img class="d-block mx-auto mb-4 profile-pic" src="./assets/images/WIN_20240613_11_45_27_Pro.jpg"
                     alt="Image of me" height="100px">
                 <h1 class="display-5 fw-bold text-body-emphasis">Alexander Sikalevski</h1>
                 <h2>Web Developer | Pokémon Professor | Software Engineer</h2>
@@ -59,6 +58,62 @@
                         Pokémon Trading Card Game. Take a look around and let me know what you think! Feel free to
                         <a href="./contact-me.html">Contact Me</a> I would love to hear form you!
                     </p>
+                </div>
+                <hr />
+                <h2>My Projects</h2>
+                <div class="project-container">
+                    <div>
+                        <a href="./tindog.html">
+                            <figure class="text-center">
+                                <blockquote class="blockquote">
+                                    <p>TinDog</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer">
+                                    Find your dogs soulmate
+                                </figcaption>
+                                <img class="img-fluid" src="./assets/images/tindog.png" alt="tindog screenshot" />
+                            </figure>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./mondrian.html">
+                            <figure class="text-center">
+                                <blockquote class="blockquote">
+                                    <p>Mondrian Painting</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer">
+                                    A Mondrian painting made with css grid
+                                </figcaption>
+                                <img class="img-fluid" src="./assets/images/mondrian.png" alt="Mondrian painting screenshot" />
+                            </figure>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./pricing-table.html">
+                            <figure class="text-center">
+                                <blockquote class="blockquote">
+                                    <p>Pricing Table</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer">
+                                    A pricing table made with flexbox
+                                </figcaption>
+                                <img class="img-fluid" src="./assets/images/pricing-table.png" alt="pricing table screenshot" />
+                            </figure>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./meme-poster.html">
+                            <figure class="text-center">
+                                <blockquote class="blockquote">
+                                    <p>Meme Poster</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer">
+                                    A motivational meme poster made with css
+                                </figcaption>
+                                <img class="img-fluid" src="./assets/images/meme-poster.png" alt="meme poster screenshot" />
+                            </figure>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
